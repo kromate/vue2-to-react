@@ -7,6 +7,8 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import { transform } from '@/converter'
+console.log(transform)
 
 export default {
   name: 'App',
